@@ -1,4 +1,4 @@
-# 2-Sum Interview Problem Solution
+# 2-Sum Interview Problem
 
 # Brute force solution
 def two_sum_problem(arr, target):
