@@ -1,10 +1,9 @@
 # 2-Sum Interview Problem Solution
 
-# Brute force approach
+# Brute force solution
 def two_sum_problem(arr, target):
-    length = len(arr)
-    for i in range(length - 1):
-        for j in range(1, length):
+    for i in range(len(arr) - 1):
+        for j in range(i + 1, len(arr)):
             if arr[i] + arr[j] == target:
                 return i, j
     return None
