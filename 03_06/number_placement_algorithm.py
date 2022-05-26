@@ -25,15 +25,10 @@ low = PUZZLE_SIZE - 1
 # store solution values
 solution_values = []
 
-# Integrate through the puzzle symbols and apply solution algorithm
-for symbol in puzzle_symbols:
-    if symbol == ">":
-        solution_values.append(sorted_puzzle_nums[high])
-        high += 1
-    elif symbol == "<":
-        solution_values.append(sorted_puzzle_nums[low])
-        low -= 1
-solution_values.append(sorted_puzzle_nums[high])
+# Your code goes here
+# Iterate through the inequalities and apply solution algorithm to populate solution_values
+# You may need to add the last value outside the loop
+pass
 
 # Convert solution_values to list of strings
 solution_values = list(map(str, solution_values))
