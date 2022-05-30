@@ -34,7 +34,7 @@ def fib_cache(n, cache=None):
     return result
 
 
-n = 35
+n = 40
 
 start = time.perf_counter()
 fib(n)
