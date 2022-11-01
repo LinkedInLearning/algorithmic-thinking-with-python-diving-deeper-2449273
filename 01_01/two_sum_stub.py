@@ -1,7 +1,11 @@
 # 2-Sum Interview Problem
 
 def two_sum_problem(arr, target):
-    pass
+    for i in range(len(arr) - 1, target):
+        for j in range(i + 1, len(arr)):
+            if arr[i] + arr[j] == target:
+                return i, j
+    return None
 
 
 assert two_sum_problem([1, 2, 3], 4) in [(0, 2), (2, 0)]
