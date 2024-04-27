@@ -22,13 +22,14 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-
 ### Instructor
 
 Robin Andrews 
                             
-
-
+## Installing
+1. To use these exercise files, you must have the following installed:
+	- Python 3
+2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
                             
 
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/robin-andrews).
