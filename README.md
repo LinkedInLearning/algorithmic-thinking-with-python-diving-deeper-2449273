@@ -30,5 +30,7 @@ Some branches will have a beginning and an end state. These are marked with the 
 Robin Andrews            
 
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/robin-andrews).
+
 [lil-course-url]: https://www.linkedin.com/learning/algorithmic-thinking-with-python-diving-deeper
+
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2449273/2449273-1659468845801-16x9.jpg
